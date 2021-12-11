@@ -12,7 +12,7 @@ using var scope = Disposable.Create(
     () => Console.WriteLine("Done!"))
 {
     // Do stuff.
-} // scope is disposed and Working on it... is printed to console 
+} // scope is disposed and Done! is printed to console 
 ```
 
 As trivial as it is, it's still a little cleaner than the longer form:
